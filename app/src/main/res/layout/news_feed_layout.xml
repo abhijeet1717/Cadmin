@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/baseline_person_pin_24"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admin College App"
+                android:layout_marginLeft="16dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/deleteNotice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_marginLeft="-100dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton">
+
+            </com.google.android.material.button.MaterialButton>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/deleteTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Helooslfnkdsjfnkjsdabfasdbfjbsdaljads"
+            android:textSize="17sp"
+            android:textColor="@color/blue"/>
+
+        <ImageView
+            android:id="@+id/deleteImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
